@@ -24,6 +24,31 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
 }
 */
 
+[widget-id="Catalog (Alt+1)"] > div:nth-child(2) {
+    display: none;
+}
+[widget-id="Price List (Alt+2)"] > div:nth-child(2) {
+    display: none;
+}
+[widget-id="Store (Alt+3)"] > div:nth-child(2) {
+    display: none;
+}
+[widget-id="Customers (Alt+4)"] > div:nth-child(2) {
+    display: none;
+}
+
+[widget-id="Warehouse (Alt+5)"] > div:nth-child(2) {
+    display: none;
+}
+
+[widget-id="Reporting (Alt+8)"] > div:nth-child(2) {
+    display: none;
+}
+
+[widget-id="Configuration (Alt+9)"] > div:nth-child(2) {
+    display: none;
+}
+
 [widget-id="Catalog"] > div:nth-child(2) {
     display: none;
 }
@@ -52,7 +77,10 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
 
 
 
-[widget-id="Save"] {
+
+
+
+[widget-id="Save (Ctrl+S)"] {
     left: 0 !important;
     background-color: #f5f9fc;
     width: 60px !important;
