@@ -1,0 +1,24 @@
+{
+  background-color: #FFFFFF;
+  background-image: none;
+  color: #333;
+  font: 12px "Noto Sans", Arial, Helvetica, sans-serif;
+}
+
+body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(6) {
+  margin-left: 5px;
+}
+
+body > div:nth-child(6) > div:nth-child(3) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(1) > div {
+  top: 10px !important;
+}
+
+body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(5) {
+  margin-top: 10px;
+}
+
+body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(5),
+body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
+  margin-left: 10px;
+  margin-right: 5px;
+}
