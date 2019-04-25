@@ -24,10 +24,10 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
 }
 */
 
-[widget-id="Catalog (Alt+1)"] > div:nth-child(2) {
+[widget-id="Catalog"] > div:nth-child(2) {
     display: none;
 }
-[widget-id="Price List (Alt+2)"] > div:nth-child(2) {
+[widget-id="Price List"] > div:nth-child(2) {
     display: none;
 }
 [widget-id="Store"] > div:nth-child(2) {
@@ -61,10 +61,19 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
   margin-top: 4px;
   margin-left: 10px;
 }
-/* [widget-id="Save (Ctrl+S)"] > div:nth-child(2) {
-    margin-left: 10px;
+
+[widget-id="SAVE"] {
+  background-color: #f5f9fc;
+  width: 60 !important;
 }
- */
+[widget-id="SAVE"] > div:nth-child(1) {
+  padding-top: 14px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+
+
 [widget-id="Save All (Ctrl+Shift+S)"] {
     background-color: #f5f9fc;
     width: 60px !important;
@@ -74,12 +83,35 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
     padding-top: 14px;
     margin-top: 4px;
 }
+
+[widget-id="SAVE ALL"] {
+    background-color: #f5f9fc;
+    width: 60px !important;
+    left: 64px !important;
+}
+[widget-id="SAVE ALL"] > div:nth-child(1) {
+    padding-top: 14px;
+    margin-top: 4px;
+}
+
+
+
 [widget-id="Reloads Active Editor (Ctrl+R)"] {
     background-color: #f5f9fc;
     width: 60px !important;
     left: 120px !important;
 }
 [widget-id="Reloads Active Editor (Ctrl+R)"] > div:nth-child(1) {
+    padding-top: 14px;
+    margin-top: 4px;
+}
+
+[widget-id="RELOAD"] {
+    background-color: #f5f9fc;
+    width: 60px !important;
+    left: 120px !important;
+}
+[widget-id="RELOAD"] > div:nth-child(1) {
     padding-top: 14px;
     margin-top: 4px;
 }
