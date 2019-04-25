@@ -22,10 +22,7 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
   margin-left: 10px;
   margin-right: 5px;
 }
- */
-[widget-type="ToolItem"] > div:nth-child(2) {
-    display: none;
-}
+*/
 
 [widget-id="Catalog (Alt+1)"] > div:nth-child(2) {
     display: none;
