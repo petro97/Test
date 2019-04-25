@@ -68,7 +68,7 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
 [widget-id="Save All (Ctrl+Shift+S)"] {
     background-color: #f5f9fc;
     width: 60px !important;
-    left: 60px !important;
+    left: 64px !important;
 }
 [widget-id="Save All (Ctrl+Shift+S)"] > div:nth-child(1) {
     padding-top: 14px;
