@@ -26,3 +26,63 @@ body > div:nth-child(6) > div:nth-child(6) > div > div:nth-child(7) {
 [widget-type="ToolItem"] > div:nth-child(2) {
     display: none;
 }
+
+[widget-id="Catalog (Alt+1)"] > div:nth-child(2) {
+    display: none;
+}
+[widget-id="Price List (Alt+2)"] > div:nth-child(2) {
+    display: none;
+}
+[widget-id="Store"] > div:nth-child(2) {
+    display: none;
+}
+[widget-id="Customers"] > div:nth-child(2) {
+    display: none;
+}
+
+[widget-id="Warehouse"] > div:nth-child(2) {
+    display: none;
+}
+
+[widget-id="Reporting"] > div:nth-child(2) {
+    display: none;
+}
+
+[widget-id="Configuration"] > div:nth-child(2) {
+    display: none;
+}
+
+
+
+
+[widget-id="Save"] {
+  background-color: #f5f9fc;
+  width: 60 !important;
+}
+[widget-id="Save (Ctrl+S)"] > div:nth-child(1) {
+  padding-top: 14px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+/* [widget-id="Save (Ctrl+S)"] > div:nth-child(2) {
+    margin-left: 10px;
+}
+ */
+[widget-id="Save All (Ctrl+Shift+S)"] {
+    background-color: #f5f9fc;
+    width: 60px !important;
+    left: 60px !important;
+}
+[widget-id="Save All (Ctrl+Shift+S)"] > div:nth-child(1) {
+    padding-top: 14px;
+    margin-top: 4px;
+}
+[widget-id="Reloads Active Editor (Ctrl+R)"] {
+    background-color: #f5f9fc;
+    width: 60px !important;
+    left: 120px !important;
+}
+[widget-id="Reloads Active Editor (Ctrl+R)"] > div:nth-child(1) {
+    padding-top: 14px;
+    margin-top: 4px;
+}
